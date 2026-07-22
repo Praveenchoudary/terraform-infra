@@ -11,9 +11,9 @@ variable "ami_id" {
   default = ""
 }
 
-variable "key_name" {
-  type = string
-}
+#variable "key_name" {
+  #type = string
+#}
 
 variable "allowed_ssh_cidr" {
   type = list(string)
